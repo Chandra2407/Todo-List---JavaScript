@@ -31,7 +31,7 @@ function addTodo() {
         //add todo to localstorage
         let todos;
         if (localStorage.getItem("todos") === null) {
-            todos = [];
+            todos = [];	
         } else {
             todos = JSON.parse(localStorage.getItem("todos"));
         }
